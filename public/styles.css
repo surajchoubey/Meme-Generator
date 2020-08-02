@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+.haha{
+    font-size: 3em;
+    justify-content: center;
+    display: flex;
+}
+
+.navtext{
+    font-size:2em;
+}
+
+p{
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000,
+    0 1px 0 #000, -1px 0 0 #000;
+    font-size: 0.75em;
+}
+
+.meme {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+
+.top-centered{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bottom-centered{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    bottom: 10%;
+    justify-content: center;
+}
